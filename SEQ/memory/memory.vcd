@@ -1,0 +1,189 @@
+$date
+	Thu Feb 22 12:48:48 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 64 ! valM [63:0] $end
+$var wire 1 " dmem_error $end
+$var reg 1 # clk $end
+$var reg 4 $ icode [3:0] $end
+$var reg 64 % valA [63:0] $end
+$var reg 64 & valE [63:0] $end
+$var reg 64 ' valP [63:0] $end
+$scope module call $end
+$var wire 1 # clk $end
+$var wire 4 ( icode [3:0] $end
+$var wire 64 ) valA [63:0] $end
+$var wire 64 * valE [63:0] $end
+$var wire 64 + valP [63:0] $end
+$var reg 64 , address [63:0] $end
+$var reg 64 - data_w [63:0] $end
+$var reg 1 " dmem_error $end
+$var reg 1 . read $end
+$var reg 64 / valM [63:0] $end
+$var reg 1 0 write $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+b1111 /
+0.
+b1111 -
+b1111 ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+1#
+0"
+b1111 !
+$end
+#5
+b0 '
+b0 +
+b11000 &
+b11000 *
+b1100100 %
+b1100100 )
+b100 $
+b100 (
+0#
+#10
+10
+b11000 ,
+b1100100 -
+1#
+#15
+0#
+b11 '
+b11 +
+b1000 &
+b1000 *
+b0 %
+b0 )
+b101 $
+b101 (
+#20
+b1000 !
+b1000 /
+1.
+b1111 -
+b1000 ,
+00
+1#
+#25
+0#
+b1000000 '
+b1000000 +
+b100000 &
+b100000 *
+b1000 $
+b1000 (
+#30
+10
+b1000000 -
+b100000 ,
+b1111 !
+b1111 /
+0.
+1#
+#35
+0#
+b1 '
+b1 +
+b0 &
+b0 *
+b100000 %
+b100000 )
+b1001 $
+b1001 (
+#40
+b1000000 !
+b1000000 /
+1.
+b1111 -
+b100000 ,
+00
+1#
+#45
+0#
+b10 '
+b10 +
+b10100 &
+b10100 *
+b1010 %
+b1010 )
+b1010 $
+b1010 (
+#50
+10
+b1010 -
+b10100 ,
+b1111 !
+b1111 /
+0.
+1#
+#55
+0#
+b111 '
+b111 +
+b0 &
+b0 *
+b10100 %
+b10100 )
+b1011 $
+b1011 (
+#60
+b1010 !
+b1010 /
+1.
+b1111 -
+b10100 ,
+00
+1#
+#65
+0#
+b0 '
+b0 +
+b10010110000 &
+b10010110000 *
+b0 %
+b0 )
+b100 $
+b100 (
+#70
+1"
+10
+b0 -
+b10010110000 ,
+b1111 !
+b1111 /
+0.
+1#
+#75
+0#
+b1 '
+b1 +
+b1 &
+b1 *
+b1 %
+b1 )
+b11 $
+b11 (
+#80
+0"
+b1111 -
+b1111 ,
+00
+1#

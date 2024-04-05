@@ -1,0 +1,278 @@
+$date
+	Thu Feb 22 12:54:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 64 ! rsp [63:0] $end
+$var wire 64 " rsi [63:0] $end
+$var wire 64 # rdx [63:0] $end
+$var wire 64 $ rdi [63:0] $end
+$var wire 64 % rcx [63:0] $end
+$var wire 64 & rbx [63:0] $end
+$var wire 64 ' rbp [63:0] $end
+$var wire 64 ( rax [63:0] $end
+$var wire 64 ) r9 [63:0] $end
+$var wire 64 * r8 [63:0] $end
+$var wire 64 + r14 [63:0] $end
+$var wire 64 , r13 [63:0] $end
+$var wire 64 - r12 [63:0] $end
+$var wire 64 . r11 [63:0] $end
+$var wire 64 / r10 [63:0] $end
+$var reg 1 0 Cnd $end
+$var reg 1 1 clk $end
+$var reg 4 2 icode [3:0] $end
+$var reg 4 3 rA [3:0] $end
+$var reg 4 4 rB [3:0] $end
+$var reg 64 5 valE [63:0] $end
+$var reg 64 6 valM [63:0] $end
+$scope module call $end
+$var wire 1 0 Cnd $end
+$var wire 1 1 clk $end
+$var wire 4 7 icode [3:0] $end
+$var wire 4 8 rA [3:0] $end
+$var wire 4 9 rB [3:0] $end
+$var wire 64 : valE [63:0] $end
+$var wire 64 ; valM [63:0] $end
+$var reg 64 < r10 [63:0] $end
+$var reg 64 = r11 [63:0] $end
+$var reg 64 > r12 [63:0] $end
+$var reg 64 ? r13 [63:0] $end
+$var reg 64 @ r14 [63:0] $end
+$var reg 64 A r8 [63:0] $end
+$var reg 64 B r9 [63:0] $end
+$var reg 64 C rax [63:0] $end
+$var reg 64 D rbp [63:0] $end
+$var reg 64 E rbx [63:0] $end
+$var reg 64 F rcx [63:0] $end
+$var reg 64 G rdi [63:0] $end
+$var reg 64 H rdx [63:0] $end
+$var reg 64 I rsi [63:0] $end
+$var reg 64 J rsp [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+11
+x0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b1111 +
+b1111 @
+b1111 ,
+b1111 ?
+b1111 -
+b1111 >
+b1111 .
+b1111 =
+b1111 /
+b1111 <
+b1111 )
+b1111 B
+b1111 *
+b1111 A
+b1111 $
+b1111 G
+b1111 "
+b1111 I
+b1111 '
+b1111 D
+b1111 !
+b1111 J
+b1111 &
+b1111 E
+b1111 #
+b1111 H
+b1100100 %
+b1100100 F
+b1111 (
+b1111 C
+00
+b1010 6
+b1010 ;
+b1100100 5
+b1100100 :
+b1 4
+b1 9
+b0 3
+b0 8
+b10 2
+b10 7
+01
+#10
+11
+#15
+01
+10
+#20
+11
+#25
+b11001000 &
+b11001000 E
+01
+00
+b10100 6
+b10100 ;
+b11001000 5
+b11001000 :
+b11 4
+b11 9
+b10 3
+b10 8
+b11 2
+b11 7
+#30
+11
+#35
+b11110 (
+b11110 C
+01
+b11110 6
+b11110 ;
+b100101100 5
+b100101100 :
+b10 4
+b10 9
+b0 3
+b0 8
+b101 2
+b101 7
+#40
+11
+#45
+b110010000 #
+b110010000 H
+01
+b101000 6
+b101000 ;
+b110010000 5
+b110010000 :
+b1 3
+b1 8
+b110 2
+b110 7
+#50
+11
+#55
+b111110100 !
+b111110100 J
+01
+b110010 6
+b110010 ;
+b111110100 5
+b111110100 :
+b1001 4
+b1001 9
+b1000 3
+b1000 8
+b1000 2
+b1000 7
+#60
+11
+#65
+b1001011000 !
+b1001011000 J
+01
+10
+b111100 6
+b111100 ;
+b1001011000 5
+b1001011000 :
+b1 4
+b1 9
+b10 3
+b10 8
+b1001 2
+b1001 7
+#70
+11
+#75
+b1010111100 !
+b1010111100 J
+01
+00
+b1000110 6
+b1000110 ;
+b1010111100 5
+b1010111100 :
+b11 3
+b11 8
+b1010 2
+b1010 7
+#80
+11
+#85
+b1100100000 !
+b1100100000 J
+b1010000 (
+b1010000 C
+01
+b1010000 6
+b1010000 ;
+b1100100000 5
+b1100100000 :
+b10 4
+b10 9
+b0 3
+b0 8
+b1011 2
+b1011 7
+#90
+11
+#95
+01
+b1010 6
+b1010 ;
+b1100100 5
+b1100100 :
+b1 4
+b1 9
+b111 2
+b111 7
+#100
+11
